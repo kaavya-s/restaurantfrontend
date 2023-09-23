@@ -1,0 +1,47 @@
+/* OrderTable.css */
+.body{
+  .spectrum-background {
+    background:
+        linear-gradient(red, transparent),
+        linear-gradient(to top left, lime, transparent),
+        linear-gradient(to top right, blue, transparent);
+    background-blend-mode: screen;
+}
+}
+.order-list {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .order-list h2 {
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 60px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+  }
+  
+  table th,
+  table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  table tr:hover {
+    background-color: #e0e0e0;
+  }
+  
